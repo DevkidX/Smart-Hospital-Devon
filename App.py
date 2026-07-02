@@ -129,7 +129,7 @@ with st.form("triage_form"):
     cough = st.checkbox("🤧 Cough")
 
   with c2:
-    headache = st.checkboc("😣 Headache")
+    headache = st.checkbox("😣 Headache")
     chest_pain = st.checkbox("😟 Chest Pain")
 
   with c3:
