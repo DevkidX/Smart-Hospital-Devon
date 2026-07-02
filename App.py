@@ -133,7 +133,7 @@ with st.form("triage_form"):
     chest_pain = st.checkbox("😟 Chest Pain")
 
   with c3:
-    stomach_pain = st.checkbbox("🤢 Stomach Pain")
+    stomach_pain = st.checkbox("🤢 Stomach Pain")
     shortness_breath = st.checkbox("🫁 Shortness Breath")
 
   with c4:
