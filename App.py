@@ -208,6 +208,6 @@ st.markdown("""
 ch1, ch2, ch3, _ = st.columns(4)
 with ch1: hypertenion = st.checkbox("🩸 High Blood Pressure")
 with ch2: heart_disease = st.checkbox("🖤 Heart Disease")
-with ch3: asthma = st.checkbbo("😮‍💨 Asthma")
+with ch3: asthma = st.checkbox("😮‍💨 Asthma")
 
 st.markdown("<br>", unsafe_allow_html=True)
