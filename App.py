@@ -233,7 +233,7 @@ with st.form("triage_form"):
   submitted = st.form_submit_button("Get AI Recommendation Result :")
 
 if submitted:
-  patient = pd_DataFrame([{
+  patient = pd.DataFrame([{
       'age' : age,
       'gender' : gender,
       'fever' : int(fever),
