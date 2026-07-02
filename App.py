@@ -4,5 +4,4 @@ import numpy as np
 import pickle
 import os
 
-
-st.title("My App")
+st.set_page_config(page_title="Smart Hospital Department Navigator", page_icon = "🏥", layout="wide")
