@@ -249,7 +249,7 @@ if submitted:
       'heart_rate_level' : hr_map.get(heart_rate_level, 1),
       'duration' : dur_map.get(duration, 1),
       'asthma' : int(asthma),
-      'hyhpertesion' : int(hypertension),
+      'hypertesion' : int(hypertension),
       'heart_disease' : int(heart_disease),
       'chief_complaint' : cc_map.get(chief_complaint, 9),
   }])
