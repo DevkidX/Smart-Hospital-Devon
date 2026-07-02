@@ -161,14 +161,13 @@ with st.form("triage_form"):
 </div>  
   """, unsafe_allow_html=True)
 
-  col_cc, coldur = st.columns(2)
-  with col_cc :
-    chief_complaint = st.selectbox("📃 Chief Complaint", options=list(cc_map.keys()))
-  with coldur:
-   duration = st.selectbox("⏱️ Duration", options=list(dur_map.keys()), index=1)
+col_cc, coldur = st.columns(2)
+with col_cc :
+  chief_complaint = st.selectbox("📃 Chief Complaint", options=list(cc_map.keys()))
+with coldur:
+  duration = st.selectbox("⏱️ Duration", options=list(dur_map.keys()), index=1)
 
 st.markdown("<br>", unsafe_allow_html=True)
-
 
 
 st.markdown("""
@@ -210,3 +209,6 @@ with ch2: heart_disease = st.checkbox("🖤 Heart Disease")
 with ch3: asthma = st.checkbox("😮‍💨 Asthma")
 
 st.markdown("<br>", unsafe_allow_html=True)
+
+
+
